@@ -10,8 +10,8 @@ function App() {
       <Header />
       <main className='main'>
         <Hero />
-        <Services />
       </main>
+      <Services />
     </div>
   );
 }

@@ -10,13 +10,16 @@ function Hero() {
         data-bs-ride='carousel'
         data-bs-interval='5000'
       >
-        <div className='carousel-item active'>
+        <div className='carousel-items'>
           <img src='assets/img/hero_1.jpg' alt='' />
           <div className='carousel-container'>
             <h2>The Wyatt Wiebe Centre For Healing</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Located in Sturgeon County, Alberta a quick thirty minutes from
+              Edmonton, the centre is situated on 84 acres. We are home to large
+              green spaces, a riding arena, and multiple healing spaces
+              including an indoor pool, massage/energy healing room, and so much
+              more.
             </p>
           </div>
         </div>

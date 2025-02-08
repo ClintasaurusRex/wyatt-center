@@ -4,15 +4,33 @@ function Services() {
   const services = [
     {
       number: '01',
-      title: 'Planting',
+      title: 'Life Coach Discovery Call',
       description:
-        'Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie',
+        'A 30 minute session where we will discuss your goals and how we can help you achieve them.',
     },
     {
       number: '02',
-      title: 'Mulching',
+      title: 'Life Coaching Session',
       description:
-        'Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie',
+        'A 60 minute session where we will dive deep into your life and your goals.',
+    },
+    {
+      number: '03',
+      title: 'Virtual Life Coaching Session',
+      description:
+        'A 60 minute session where we will dive deep into your life and your goals.',
+    },
+    {
+      number: '04',
+      title: 'Virtual Coaching Session',
+      description:
+        'A 45 minute session where we will dive deep into your life and your goals.',
+    },
+    {
+      number: '05',
+      title: 'Life Coaching Session',
+      description:
+        'A 45 minute session where we will dive deep into your life and your goals.',
     },
     // Add other services here
   ];
