@@ -11,7 +11,11 @@ function Hero() {
         data-bs-interval='5000'
       >
         <div className='carousel-items'>
-          <img src='assets/img/hero_1.jpg' alt='' />
+          <img
+            src='assets/img/hero_1.jpg'
+            style={{ filter: 'brightness(0.4)' }}
+            alt=''
+          />
           <div className='carousel-container'>
             <h2>The Wyatt Wiebe Centre For Healing</h2>
             <p>
