@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Services.css';
 
 function Services() {
   const services = [
@@ -44,11 +45,11 @@ function Services() {
 
       <div className='content'>
         <div className='container'>
-          <div className='row g-0'>
+          <div className='grid-rows'>
             {services.map((service, index) => (
               <div key={index} className='col-lg-3 col-md-6'>
-                <div className='service-item'>
-                  <span className='number'>{service.number}</span>
+                <div className='grid-rows1'>
+                  {/* <span className='number'>{service.number}</span> */}
                   <div className='service-item-icon'>
                     {/* SVG icons can be imported as separate components */}
                   </div>
