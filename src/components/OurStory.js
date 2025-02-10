@@ -1,4 +1,4 @@
-import "./OurStory.css";
+import "../styles/OurStory.css";
 
 function OurStory() {
   return (
