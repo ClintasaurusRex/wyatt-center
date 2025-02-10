@@ -5,7 +5,7 @@ function OurStory() {
     <div>
       <main className="main-container">
         <section className="our-story">
-          <h1>Our Mission</h1>
+          <h1 className="story-title">Our Mission</h1>
           <p>
             Our mission is to steward this land with deep respect, love, and gratitude, recognizing
             the wisdom and sacrifices of those who came before us and honoring the generations yet
@@ -27,7 +27,7 @@ function OurStory() {
           </div>
         </section>
         <section id="our-why" className="our-story">
-          <h1>Our Why</h1>
+          <h1 className="story-title">Our Why</h1>
           <p>
             After the sudden passing of our founders son, Wyatt, in January of 2021, it was clear
             she wanted to do something to honour him. A short four and a half months later her

@@ -9,10 +9,16 @@
   width: 50%;
   font-family: "Courier New", Courier, monospace;
 }
+
+.story-title {
+  text-decoration-line: underline;
+}
+
 #our-why {
   width: 50%;
   margin-left: auto;
 }
+
 .btn-container {
   display: flex;
   justify-content: space-evenly;
@@ -28,10 +34,12 @@
   font-weight: bold;
   transition: all 0.3s ease;
 }
+
 button:hover {
   cursor: pointer;
   transform: scale(110%) translateY(-5px);
 }
+
 @keyframes fadeSlideIn {
   0% {
     opacity: 0;
