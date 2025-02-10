@@ -14,6 +14,11 @@ function OurStory() {
             community that supports personal growth, collective well-being, and a harmonious
             relationship with nature.
           </p>
+          <div className="btn-container">
+            <button className="btns">Who We Are</button>
+            <button className="btns">Bookings</button>
+            <button className="btns">Our Spaces</button>
+          </div>
         </section>
         <section id="our-why" className="our-story">
           <h1>Our Why</h1>
