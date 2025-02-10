@@ -1,31 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header id="header" className="header d-flex align-items-center position-relative">
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-        <a href="/" className="logo d-flex align-items-center">
+        <Link to="/" className="logo d-flex align-items-center">
           <img src="assets/img/wwch.png" alt="AgriCulture" />
           <div className="logo-text">
             <p>The Wyatt Wiebe </p>
             <p>Centre For Healing</p>
           </div>
-        </a>
+        </Link>
 
         <nav id="navmenu" className="navmenu">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About Us</a>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
-              <a href="/services">Our Services</a>
+              <Link to="/services">Our Services</Link>
             </li>
-
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
