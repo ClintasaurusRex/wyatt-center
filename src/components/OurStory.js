@@ -1,6 +1,9 @@
 import "../styles/OurStory.css";
+import { useNavigate } from "react-router-dom";
 
 function OurStory() {
+  const navigate = useNavigate();
+
   return (
     <div>
       <main className="main-container">
@@ -15,7 +18,7 @@ function OurStory() {
             relationship with nature.
           </p>
           <div className="btn-container">
-            <button className="btns" onClick={() => console.log("clicked")}>
+            <button className="btns" onClick={() => navigate("/about")}>
               Who We Are
             </button>
             <button className="btns" onClick={() => console.log("clicked")}>
