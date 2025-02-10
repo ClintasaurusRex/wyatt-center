@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
   return (
@@ -8,8 +9,10 @@ function Header() {
         <Link to="/" className="logo d-flex align-items-center">
           <img src="assets/img/wwch.png" alt="AgriCulture" />
           <div className="logo-text">
-            <p>The Wyatt Wiebe </p>
-            <p>Centre For Healing</p>
+            <p id="logo-text">
+              The Wyatt Wiebe
+              <p>Centre For Healing</p>
+            </p>
           </div>
         </Link>
 
