@@ -26,14 +26,11 @@
   background: #4caf50;
   bottom: -5px;
   left: 0;
-  transition: width 0.3s ease;
+  transition: width 0.4s ease;
 }
 
 .navmenu ul li a:hover:after {
   width: 100%;
-}
-.contact-link {
-  padding: 3px !important;
 }
 
 @media (min-width: 1200px) {
