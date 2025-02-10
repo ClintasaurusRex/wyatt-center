@@ -16,6 +16,9 @@
   border-radius: 35px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
+.our-story p {
+  line-height: 2;
+}
 
 .story-title {
   text-decoration-line: underline;
