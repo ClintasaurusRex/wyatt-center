@@ -22,21 +22,21 @@ const Footer = () => {
           <p>Sunday: Closed</p>
         </div>
 
-        <div className="footer-section">
+        <div className="footer-section" id="quick-links">
           <h3>Quick Links</h3>
           <ul>
-            <li>
+            <li className="quick-links">
               <a href="#services">Services</a>
             </li>
-            <li>
+            <li className="quick-links">
               <a onClick={() => navigate("/about")} href="#about">
                 About Us
               </a>
             </li>
-            <li>
+            <li className="quick-links">
               <a href="#booking">Book Appointment</a>
             </li>
-            <li>
+            <li className="quick-links">
               <a href="#resources">Resources</a>
             </li>
           </ul>

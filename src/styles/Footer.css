@@ -48,6 +48,17 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  position: relative;
+  display: inline-block;
+}
+#quick-links a:visited {
+  color: #9b59b6;
+}
+
 @media (max-width: 768px) {
   .footer-content {
     grid-template-columns: 1fr;
