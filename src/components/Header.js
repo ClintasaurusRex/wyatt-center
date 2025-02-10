@@ -1,8 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
+  const location = useLocation();
+
   return (
     <header id="header" className="header d-flex align-items-center position-relative">
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -19,16 +21,34 @@ function Header() {
         <nav id="navmenu" className="navmenu">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className={`nav-link ${location.pathname === "/" ? "active" : ""}`}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link
+                to="/about"
+                className={`nav-link ${location.pathname === "/about" ? "active" : ""}`}
+              >
+                About Us
+              </Link>
             </li>
             <li>
-              <Link to="/services">Our Services</Link>
+              <Link
+                to="/services"
+                className={`nav-link ${location.pathname === "/services" ? "active" : ""}`}
+              >
+                Our Services
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link
+                id="contact-link"
+                to="/contact"
+                className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>

@@ -298,10 +298,11 @@ h6 {
     transition: 0.3s;
   }
 
-  .navmenu li:last-child a {
-    padding-right: 0;
+  @media (min-width: 1200px) {
+    .navmenu li:last-child a {
+      padding-right: 0;
+    }
   }
-
   .navmenu li:hover > a,
   .navmenu .active,
   .navmenu .active:focus {
