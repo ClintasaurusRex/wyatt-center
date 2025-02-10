@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import { teamMembers } from "../data";
 import "../styles/About.css";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {teamMembers.map((member, index) => (
