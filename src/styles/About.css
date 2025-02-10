@@ -1,0 +1,7 @@
+.about-main {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  line-height: 2;
+  margin: 0 auto;
+}
