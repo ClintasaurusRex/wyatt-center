@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import OurStory from "./components/OurStory";
 import Footer from "./components/Footer";
 import "./App.css";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
               </main>
             }
           />
-          <Route path="/about" element={<div>About Page</div>} />
+          <Route path="/about" element={<About />} />
           <Route path="/services" element={<div>Services Page</div>} />
           <Route path="/contact" element={<div>Contact Page</div>} />
         </Routes>
