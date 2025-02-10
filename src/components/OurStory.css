@@ -1,0 +1,13 @@
+.main-container {
+  display: flex;
+}
+.our-story {
+  padding: 36px;
+  /* padding-left: 20px; */
+  margin-right: auto;
+  width: 50%;
+}
+#our-why {
+  width: 50%;
+  margin-left: auto;
+}
