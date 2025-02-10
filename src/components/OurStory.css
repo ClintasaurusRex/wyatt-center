@@ -1,5 +1,6 @@
 .main-container {
   display: flex;
+  animation: fadeSlideIn 1s ease-in-out;
 }
 .our-story {
   padding: 36px;
@@ -30,4 +31,14 @@
 button:hover {
   cursor: pointer;
   transform: scale(110%) translateY(-5px);
+}
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
