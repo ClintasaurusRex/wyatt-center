@@ -15,9 +15,15 @@ function OurStory() {
             relationship with nature.
           </p>
           <div className="btn-container">
-            <button className="btns">Who We Are</button>
-            <button className="btns">Bookings</button>
-            <button className="btns">Our Spaces</button>
+            <button className="btns" onClick={() => console.log("clicked")}>
+              Who We Are
+            </button>
+            <button className="btns" onClick={() => console.log("clicked")}>
+              Bookings
+            </button>
+            <button className="btns" onClick={() => console.log("clicked")}>
+              Our Spaces
+            </button>
           </div>
         </section>
         <section id="our-why" className="our-story">
