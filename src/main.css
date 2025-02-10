@@ -12,11 +12,11 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: 'Open Sans', system-ui, -apple-system, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --heading-font: 'Marcellus', sans-serif;
-  --nav-font: 'Marcellus', sans-serif;
+  --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Marcellus", sans-serif;
+  --nav-font: "Marcellus", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -121,7 +121,7 @@ h6 {
 }
 
 .php-email-form .loading:before {
-  content: '';
+  content: "";
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -158,7 +158,7 @@ h6 {
 }
 
 .pulsating-play-btn:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -176,7 +176,7 @@ h6 {
 }
 
 .pulsating-play-btn:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -191,7 +191,7 @@ h6 {
 }
 
 .pulsating-play-btn:hover:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -252,8 +252,7 @@ h6 {
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px
-    color-mix(in srgb, var(--default-color), transparent 85%);
+  box-shadow: 0px 0 18px color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 /*--------------------------------------------------------------
@@ -322,8 +321,7 @@ h6 {
     transition: 0.3s;
     border-radius: 4px;
     z-index: 99;
-    box-shadow: 0px 0px 30px
-      color-mix(in srgb, var(--default-color), transparent 85%);
+    box-shadow: 0px 0px 30px color-mix(in srgb, var(--default-color), transparent 85%);
   }
 
   .navmenu .dropdown ul li {
@@ -395,8 +393,7 @@ h6 {
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
-    box-shadow: 0px 0px 30px
-      color-mix(in srgb, var(--default-color), transparent 90%);
+    box-shadow: 0px 0px 30px color-mix(in srgb, var(--default-color), transparent 90%);
   }
 
   .navmenu a,
@@ -542,7 +539,7 @@ h6 {
 }
 
 .footer h4::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 20px;
@@ -639,7 +636,7 @@ h6 {
 }
 
 #preloader:before {
-  content: '';
+  content: "";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -718,12 +715,8 @@ h6 {
 }
 
 .page-title:before {
-  content: '';
-  background-color: color-mix(
-    in srgb,
-    var(--background-color),
-    transparent 50%
-  );
+  content: "";
+  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   position: absolute;
   inset: 0;
 }
@@ -750,7 +743,7 @@ h6 {
 }
 
 .page-title .breadcrumbs ol li + li::before {
-  content: '/';
+  content: "/";
   display: inline-block;
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 50%);

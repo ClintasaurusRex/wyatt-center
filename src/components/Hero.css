@@ -3,3 +3,6 @@
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
 }
+#hero-carousel {
+  min-height: 91vh;
+}
