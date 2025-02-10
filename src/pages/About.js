@@ -7,8 +7,10 @@ function About() {
       {teamMembers.map((member, index) => (
         <div key={index}>
           <main className="about-main">
-            <h2>{member.name}</h2>
-            <h3>{member.title}</h3>
+            <div className="about-title">
+              <h2>{member.name}</h2>
+              <h3>{member.title}</h3>
+            </div>
 
             <img className="about-img" src={member.image} alt={member.name} />
             <span className="member-description">{member.description}</span>
