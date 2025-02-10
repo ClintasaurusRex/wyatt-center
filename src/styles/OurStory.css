@@ -1,6 +1,8 @@
 .main-container {
   display: flex;
   animation: fadeSlideIn 1s ease-in-out;
+  padding: 50px;
+  gap: 100px;
 }
 .our-story {
   padding: 36px;
@@ -8,6 +10,11 @@
   margin-right: auto;
   width: 50%;
   font-family: "Courier New", Courier, monospace;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .story-title {
