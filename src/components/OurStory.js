@@ -7,9 +7,12 @@ function OurStory() {
         <section className="our-story">
           <h1>Our Mission</h1>
           <p>
-            Our mission is to offer this land in service to our community with love and gratitude to
-            honour those before us and those who will come after. We wish to bring a sense of
-            community, connection, and healing.
+            Our mission is to steward this land with deep respect, love, and gratitude, recognizing
+            the wisdom and sacrifices of those who came before us and honoring the generations yet
+            to come. We are committed to fostering a space where individuals can come together in a
+            spirit of unity, connection, and healing. Through our efforts, we seek to nurture a
+            community that supports personal growth, collective well-being, and a harmonious
+            relationship with nature.
           </p>
         </section>
         <section id="our-why" className="our-story">
