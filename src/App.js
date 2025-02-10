@@ -6,6 +6,7 @@ import OurStory from "./components/OurStory";
 import Footer from "./components/Footer";
 import "./App.css";
 import About from "./pages/About";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             }
           />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<div>Services Page</div>} />
+          <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<div>Contact Page</div>} />
         </Routes>
         <Footer />
@@ -31,5 +32,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
