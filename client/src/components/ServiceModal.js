@@ -6,7 +6,7 @@ const ServiceModal = ({ service, onClose }) => {
     <div className="modal-overlay">
       <div className="modal-content">
         <button className="close-button" onClick={onClose}>
-          ×
+          <img src="/icons8-close.gif" alt="Close" width="24" height="24" />
         </button>
         <h2>{service.title}</h2>
         <p>{service.description}</p>
