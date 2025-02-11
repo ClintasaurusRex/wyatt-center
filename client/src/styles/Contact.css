@@ -62,7 +62,7 @@ form textarea {
 }
 
 /* Style the form submit button */
-form input[type='submit'] {
+form input[type="submit"] {
   background-color: #007bff; /* Bootstrap's primary color */
   color: white;
   padding: 0.5rem 1rem;
@@ -72,6 +72,15 @@ form input[type='submit'] {
 }
 
 /* Style the form submit button on hover */
-form input[type='submit']:hover {
+form input[type="submit"]:hover {
   background-color: #0056b3; /* Darken the color on hover */
+}
+.blur-link {
+  filter: blur(4px);
+  transition: filter 0.3s ease;
+}
+
+.blur-link:hover,
+.blur-link:focus {
+  filter: blur(0);
 }

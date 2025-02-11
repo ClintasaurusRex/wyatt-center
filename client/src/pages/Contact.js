@@ -1,20 +1,19 @@
 // src/pages/Contact.js
-import React from 'react';
-import '../styles/Contact.css'; // Import the CSS file
+import React from "react";
+import "../styles/Contact.css"; // Import the CSS file
 
 function Contact() {
   return (
-    <div className='contact-container'>
-      {' '}
+    <div className="contact-container">
+      {" "}
       {/* Apply the styles to the main container */}
-      <h1 className='contact-heading'>Contact Us</h1>{' '}
-      {/* Apply the styles to the heading */}
-      <p className='contact-paragraph'>
-        For any inquiries, please email us at{' '}
-        <a href='mailto:contact@wyattwiebe.com' className='contact-email'>
+      <h1 className="contact-heading">Contact Us</h1> {/* Apply the styles to the heading */}
+      <p className="contact-paragraph">
+        For any inquiries, please email us at{" "}
+        <a href="mailto:contact@wyattwiebe.com" className="contact-email blur-link">
           contact@wyattwiebe.com
         </a>
-      </p>{' '}
+      </p>{" "}
     </div>
   );
 }
