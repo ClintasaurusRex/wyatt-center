@@ -5,8 +5,8 @@ import Hero from "./components/Hero";
 import OurStory from "./components/OurStory";
 import About from "./pages/About";
 import Services from "./pages/Services";
-import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
