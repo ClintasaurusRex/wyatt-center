@@ -32,3 +32,32 @@ export const teamMembers = [
       "Raised in the small town of Legal, Alberta, I was surrounded by the values of integrity, hard work, and resilience. I grew up with a love for horses; when my dad brought home our first horse, \"Valley,\" I was hooked. Along came 4-H and Teen Time, which only deepened my passion. I've dedicated my recent career to working with at-risk youth and children with varying abilities. As an Educational Assistant, I provide emotional support in inclusive settings, helping students manage aggressive, depressive, and destructive behaviors. I've also worked closely with families as a Family Support Worker, providing respite care, home support, assistance with community outings, and teaching life skills to clients. In 2009, I founded my Equine Assisted Learning company. I offer a range of workshops, including women's workshops, youth programs, corporate team-building, and family coaching.",
   },
 ];
+
+export const services = [
+  {
+    number: "01",
+    title: "Life Coach Discovery Call",
+    description:
+      "A 30 minute session where we will discuss your goals and how we can help you achieve them.",
+  },
+  {
+    number: "02",
+    title: "Life Coaching Session",
+    description: "A 60 minute session where we will dive deep into your life and your goals.",
+  },
+  {
+    number: "03",
+    title: "Virtual Life Coaching Session",
+    description: "A 60 minute session where we will dive deep into your life and your goals.",
+  },
+  {
+    number: "04",
+    title: "Virtual Coaching Session",
+    description: "A 45 minute session where we will dive deep into your life and your goals.",
+  },
+  {
+    number: "05",
+    title: "Life Coaching Session",
+    description: "A 45 minute session where we will dive deep into your life and your goals.",
+  },
+];
