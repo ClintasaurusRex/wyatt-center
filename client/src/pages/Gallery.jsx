@@ -1,3 +1,5 @@
+import "../styles/Gallery.css";
+
 const galleryData = [
   {
     id: 1,
@@ -50,8 +52,8 @@ function Gallery() {
       <div className="gallery-grid">
         {galleryData.map((item) => (
           <div key={item.id} className="gallery-item">
-            <img src={item.image} alt={item.title} />
             <h3>{item.title}</h3>
+            <img src={item.image} alt={item.title} />
             <p>{item.description}</p>
             <span className="category">{item.category}</span>
           </div>
