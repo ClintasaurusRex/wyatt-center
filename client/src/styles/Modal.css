@@ -38,3 +38,14 @@
 .grid-rows1:hover {
   transform: translateY(-5px);
 }
+
+.booking-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.booking-section button:hover {
+  background-color: #45a049;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
