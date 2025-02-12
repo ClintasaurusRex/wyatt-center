@@ -41,6 +41,14 @@ const galleryData = [
     description: "Gained muscle and improved energy levels",
     date: "2023-08-15",
   },
+  {
+    id: 6,
+    title: "Healthy Breakfast Ideas",
+    image: "https://example.com/breakfast.jpg",
+    category: "meal",
+    description: "Oatmeal with berries and nuts",
+    date: "2023-09-01",
+  },
 ];
 
 galleryData.map((item) => console.table(item));
