@@ -6,6 +6,7 @@ import OurStory from "./components/OurStory";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -27,7 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/gallery" element=<div>Gallery Here</div> />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <Footer />
       </div>
