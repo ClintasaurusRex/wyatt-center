@@ -5,6 +5,9 @@
   margin: 0 auto; /* Additional centering */
   max-width: 960px; /* Controls the maximum width of the grid container */
 }
+.gallery-container {
+  padding: 25px;
+}
 .gallery-container h1 {
   display: flex;
   justify-content: center;
