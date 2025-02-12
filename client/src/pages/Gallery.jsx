@@ -52,8 +52,6 @@ const galleryData = [
   },
 ];
 
-galleryData.map((item) => console.table(item));
-
 function Gallery() {
   return (
     <div className="gallery-container">
@@ -62,7 +60,11 @@ function Gallery() {
         {galleryData.map((item) => (
           <div key={item.id} className="gallery-item">
             <h3>{item.title}</h3>
-            <img src={item.image} alt={item.title} />
+            <img
+              src={item.image}
+              alt={item.title}
+              onClick={() => window.open(item.image, "_blank")}
+            />
             <p>{item.description}</p>
             <span className="category">{item.category}</span>
           </div>
