@@ -21,7 +21,7 @@ function OurStory() {
             <button className="btns" onClick={() => navigate("/about")}>
               Who We Are
             </button>
-            <button className="btns" onClick={() => console.log("clicked")}>
+            <button className="btns" onClick={() => navigate("/services")}>
               Bookings
             </button>
             <button className="btns" onClick={() => console.log("clicked")}>
