@@ -1,14 +1,10 @@
 .grid-rows {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   /* border: 1px solid red; */
   gap: 10px;
-}
-.container {
-  margin-right: 0;
-  margin-left: 0;
 }
 
 .grid-rows1 {
