@@ -7,15 +7,27 @@ const ServiceModal = ({ service, onClose }) => {
   const getCalendlyUrl = (serviceTitle) => {
     switch (serviceTitle) {
       case "Life Coach Discovery Call":
-        return "https://calendly.com/your-link/discovery-call";
+        return "https://example.com/";
       case "Life Coaching Session":
-        return "https://calendly.com/your-link/coaching-session";
+        return "https://example.com/";
       case "Virtual Life Coaching Session":
-        return "https://calendly.com/your-link/virtual-coaching";
+        return "https://example.com/";
       default:
-        return "https://calendly.com/your-link/default";
+        return "https://example.com/";
     }
   };
+  // const getCalendlyUrl = (serviceTitle) => {
+  //   switch (serviceTitle) {
+  //     case "Life Coach Discovery Call":
+  //       return "https://calendly.com/your-link/discovery-call";
+  //     case "Life Coaching Session":
+  //       return "https://calendly.com/your-link/coaching-session";
+  //     case "Virtual Life Coaching Session":
+  //       return "https://calendly.com/your-link/virtual-coaching";
+  //     default:
+  //       return "https://calendly.com/your-link/default";
+  //   }
+  // };
 
   return (
     <div className="modal-overlay">
