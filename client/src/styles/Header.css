@@ -57,3 +57,18 @@
     border-color: #4caf50;
   }
 }
+
+.header .container-fluid {
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: -17em;
+}
+
+.navmenu {
+  margin-right: -13em;
+}
